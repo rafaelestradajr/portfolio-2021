@@ -16,7 +16,7 @@ const Pages = ({user})=>{
                 <Route path='/projects'>
                     <Projects user={user}/>
                 </Route>
-                <Route path='work'>
+                <Route path='/work'>
                     <Work user={user}/>
                 </Route>
                 <Route path='/education'>

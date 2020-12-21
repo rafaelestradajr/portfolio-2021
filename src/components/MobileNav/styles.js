@@ -22,10 +22,11 @@ top:0;
 z-index:1;
 `;
 
-export const NavLink =styled.(Link)`
+export const NavLink =styled(Link)`
 width:25%;
 `;
 
 export const NavButton = styled(Button)`
 width:100%;
+justify-content:center;
 `;

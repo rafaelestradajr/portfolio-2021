@@ -10,4 +10,7 @@ border-bottom:1px solid ${white};
 export const ProjectTitle = styled.div`
 margin-top:1.2rem;
 `
+export const SkillContainer = styled.div`
+margin-top:1.2rem;
+`
 
