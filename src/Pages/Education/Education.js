@@ -11,7 +11,7 @@ const Education = ({user}) =>{
               <SectionTitle>Education</SectionTitle>
               <ul>
                   {user.education.map((education,i) =>(
-                      <EducationItem key='i'>
+                      <EducationItem key={i}>
                       <Institution>{education.position}</Institution>
                       <div>
                           <Degree>
@@ -22,7 +22,7 @@ const Education = ({user}) =>{
                               {education.start.year} to {education.end.year}
                           </span>
                       </div>
-                      <Paragraph>{education.description.replace('\n\n','\n')}</Paragraph>
+                      <Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
                       </EducationItem>
                   ))}
               </ul>

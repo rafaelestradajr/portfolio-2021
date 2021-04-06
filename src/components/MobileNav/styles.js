@@ -19,6 +19,7 @@ justify-content:center;
 position:fixed;
 width:100vh;
 top:0;
+left:0;
 z-index:1;
 `;
 
